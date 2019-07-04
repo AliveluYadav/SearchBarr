@@ -14,6 +14,7 @@
 		D448B06A207C7ACC00FF5F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D448B068207C7ACC00FF5F62 /* LaunchScreen.storyboard */; };
 		D448B075207C7ACE00FF5F62 /* SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448B074207C7ACE00FF5F62 /* SearchBarTests.swift */; };
 		D448B080207C7AD000FF5F62 /* SearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448B07F207C7AD000FF5F62 /* SearchBarUITests.swift */; };
+		D448B08E207C7E5D00FF5F62 /* TVSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448B08D207C7E5D00FF5F62 /* TVSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D448B07B207C7ACF00FF5F62 /* SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D448B07F207C7AD000FF5F62 /* SearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarUITests.swift; sourceTree = "<group>"; };
 		D448B081207C7AD400FF5F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D448B08D207C7E5D00FF5F62 /* TVSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D448B066207C7ACB00FF5F62 /* Assets.xcassets */,
 				D448B068207C7ACC00FF5F62 /* LaunchScreen.storyboard */,
 				D448B06B207C7ACC00FF5F62 /* Info.plist */,
+				D448B08D207C7E5D00FF5F62 /* TVSearchBar.swift */,
 			);
 			path = SearchBar;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D448B08E207C7E5D00FF5F62 /* TVSearchBar.swift in Sources */,
 				D448B062207C7AC900FF5F62 /* ViewController.swift in Sources */,
 				D448B060207C7AC800FF5F62 /* AppDelegate.swift in Sources */,
 			);
